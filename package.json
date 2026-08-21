@@ -1,0 +1,17 @@
+{
+  "name": "quepasacosta-engineering-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Engineering agent runtime for QuePasaCosta.es",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
